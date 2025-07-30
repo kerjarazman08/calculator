@@ -40,11 +40,6 @@ button {
   transition: background 0.2s ease;
 }
 
-function backspace() {
-  let display = document.getElementById("display");
-  display.value = display.value.slice(0, -1);
-}
-
 button:hover {
   background-color: #d5d5d5;
 }
