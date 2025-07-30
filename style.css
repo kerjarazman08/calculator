@@ -40,6 +40,15 @@ button {
   transition: background 0.2s ease;
 }
 
+button.backspace {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.backspace:hover {
+  background-color: #5a6268;
+}
+
 button:hover {
   background-color: #d5d5d5;
 }
